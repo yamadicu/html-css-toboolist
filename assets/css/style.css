@@ -127,7 +127,7 @@ li{
     display: inline-block;
     font-size: 13px;
 }
-.cerchio2{
+p::before{
     display: inline-block;
     border: 1px solid red;
     border-radius: 50%;
@@ -135,8 +135,9 @@ li{
     height: 20px;
     text-align: center;
     color: red;
+    content: "\2717";
 }
-.cerchio1{
+span::before{
     display: inline-block;
     border: 1px solid green;
     border-radius: 50%;
@@ -144,4 +145,5 @@ li{
     height: 20px;
     text-align: center;
     color: green;
+    content: "\2713";
 }
