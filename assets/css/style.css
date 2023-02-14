@@ -6,11 +6,53 @@
     margin-top: 5px;
     box-sizing: border-box;
 }
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    background-color: whitesmoke;
+}
+
 #logo{
     vertical-align: middle;
 }
+
+header{
+    background-color: white;
+}
+
 h1{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 25px 25px 0 0;
+    height: 50px;
+}
+
+.butt1{
+    background-color: rgb(39, 182, 226);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border:0 ;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.butt2{
+    background-color: white;
+    color: grey;
+    height: 30px;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
