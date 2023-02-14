@@ -1,9 +1,7 @@
-/* margin top aggiunto per fattore estetico */
-
 *{
     margin: 0;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 0px;
     box-sizing: border-box;
 }
 
@@ -11,6 +9,7 @@
 
 body{
     background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 #logo{
@@ -55,4 +54,94 @@ nav{
     width: 100px;
     border: 1px solid grey;
     border-radius: 10px;
+}
+section{
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+    margin-top: 10px;
+}
+li{
+    margin-top: 15px;
+    list-style-type: none;
+}
+.sottotitolo{
+    display: inline-block;
+}
+.azzurro{
+    background-color: cyan;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.verde-acq{
+    background-color:aquamarine;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.viola{
+    background-color: purple;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.arancione{
+    background-color: orange;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.rosa{
+    background-color: pink;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.verde{
+    background-color: green;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 13px;
+}
+.cerchio2{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: red;
+}
+.cerchio1{
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: green;
 }
